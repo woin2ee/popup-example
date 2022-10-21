@@ -14,7 +14,7 @@
 		E8B7BA9D28BF42F800169729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8B7BA9C28BF42F800169729 /* Assets.xcassets */; };
 		E8B7BAA028BF42F800169729 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B7BA9E28BF42F800169729 /* LaunchScreen.storyboard */; };
 		E8B7BAAD28BF498900169729 /* DesctructiveAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B7BAAC28BF498900169729 /* DesctructiveAlertController.swift */; };
-		E8B7BAAF28BF4C8200169729 /* LoginPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B7BAAE28BF4C8200169729 /* LoginPopupViewController.swift */; };
+		E8B7BAAF28BF4C8200169729 /* loginPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B7BAAE28BF4C8200169729 /* loginPopupViewController.swift */; };
 		E8B7BAB228BF4C9200169729 /* LoginPopup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B7BAB128BF4C9200169729 /* LoginPopup.storyboard */; };
 		E8B7BAB728BF56FB00169729 /* CornerRadiusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B7BAB628BF56FB00169729 /* CornerRadiusView.swift */; };
 /* End PBXBuildFile section */
@@ -29,7 +29,7 @@
 		E8B7BA9F28BF42F800169729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8B7BAA128BF42F800169729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = PopupExample/Resources/Info.plist; sourceTree = SOURCE_ROOT; };
 		E8B7BAAC28BF498900169729 /* DesctructiveAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesctructiveAlertController.swift; sourceTree = "<group>"; };
-		E8B7BAAE28BF4C8200169729 /* LoginPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPopupViewController.swift; sourceTree = "<group>"; };
+		E8B7BAAE28BF4C8200169729 /* loginPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginPopupViewController.swift; sourceTree = "<group>"; };
 		E8B7BAB128BF4C9200169729 /* LoginPopup.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginPopup.storyboard; sourceTree = "<group>"; };
 		E8B7BAB628BF56FB00169729 /* CornerRadiusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,7 +121,7 @@
 		E8B7BAB028BF4C8300169729 /* LoginPopup */ = {
 			isa = PBXGroup;
 			children = (
-				E8B7BAAE28BF4C8200169729 /* LoginPopupViewController.swift */,
+				E8B7BAAE28BF4C8200169729 /* loginPopupViewController.swift */,
 				E8B7BAB128BF4C9200169729 /* LoginPopup.storyboard */,
 			);
 			path = LoginPopup;
@@ -225,7 +225,7 @@
 			files = (
 				E8B7BA9828BF42F400169729 /* MainViewController.swift in Sources */,
 				E8B7BA9428BF42F400169729 /* AppDelegate.swift in Sources */,
-				E8B7BAAF28BF4C8200169729 /* LoginPopupViewController.swift in Sources */,
+				E8B7BAAF28BF4C8200169729 /* loginPopupViewController.swift in Sources */,
 				E8B7BA9628BF42F400169729 /* SceneDelegate.swift in Sources */,
 				E8B7BAAD28BF498900169729 /* DesctructiveAlertController.swift in Sources */,
 				E8B7BAB728BF56FB00169729 /* CornerRadiusView.swift in Sources */,
